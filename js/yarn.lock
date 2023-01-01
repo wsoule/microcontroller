@@ -968,6 +968,14 @@ end-of-stream@^1.0.0, end-of-stream@^1.1.0, end-of-stream@^1.4.1:
   dependencies:
     once "^1.4.0"
 
+epoll@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.npmjs.org/epoll/-/epoll-4.0.1.tgz"
+  integrity sha512-BgCq0nEsk+XI7y9qjrRtt9uXsyFEdvevvq42xl6t/hKZjxLSDZreD9rTZ0pU40V//c3Zzk2PZGuIsn8YJHSJ4g==
+  dependencies:
+    bindings "^1.5.0"
+    nan "^2.14.2"
+
 escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz"
@@ -1449,6 +1457,13 @@ has-unicode@^2.0.0:
   resolved "https://registry.npmjs.org/has-unicode/-/has-unicode-2.0.1.tgz"
   integrity sha512-8Rf9Y83NBReMnx0gFzA8JImQACstCYWUplepDa9xprwwtmgEZUF0h/i5xSA625zB/I37EtrswSST6OXxwaaIJQ==
 
+hc-sr04@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/hc-sr04/-/hc-sr04-0.0.1.tgz"
+  integrity sha512-ApE3UtyAYANbqaWG3+swzUN5g6e0lRIsLRvBd8VH5IeaqcIGQv3Q9rDY1VnDPt69MfKKaWzlqKCPJ016XiSjgQ==
+  dependencies:
+    onoff "^6.0.3"
+
 http-cache-semantics@3.8.1:
   version "3.8.1"
   resolved "https://registry.npmjs.org/http-cache-semantics/-/http-cache-semantics-3.8.1.tgz"
@@ -1719,7 +1734,7 @@ lodash.clonedeep@^4.3.0:
   resolved "https://registry.npmjs.org/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz"
   integrity sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ==
 
-lodash.debounce@^4.0.3:
+lodash.debounce@^4.0.3, lodash.debounce@^4.0.8:
   version "4.0.8"
   resolved "https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-4.0.8.tgz"
   integrity sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==
@@ -1849,7 +1864,7 @@ mute-stream@0.0.8:
   resolved "https://registry.npmjs.org/mute-stream/-/mute-stream-0.0.8.tgz"
   integrity sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
 
-nan@^2.14.0, nan@^2.15.0:
+nan@^2.14.0, nan@^2.14.2, nan@^2.15.0:
   version "2.17.0"
   resolved "https://registry.npmjs.org/nan/-/nan-2.17.0.tgz"
   integrity sha512-2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ==
@@ -1984,6 +1999,14 @@ onetime@^5.1.0:
   integrity sha512-kbpaSSGJTWdAY5KPVeMOKXSrPtr8C8C7wodJbcsd51jRnmD+GZu8Y0VoU6Dm5Z4vWr0Ig/1NKuWRKf7j5aaYSg==
   dependencies:
     mimic-fn "^2.1.0"
+
+onoff@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.npmjs.org/onoff/-/onoff-6.0.3.tgz"
+  integrity sha512-xtVlwRDzswYM69bzzIui/qzu7QHsFnjsQiCV1iYVA/HXt5xdc9utc97SYAlXzK8wAhIN7+H7MaVqh2vpfdKk9A==
+  dependencies:
+    epoll "^4.0.1"
+    lodash.debounce "^4.0.8"
 
 optionator@^0.9.1:
   version "0.9.1"
@@ -2787,6 +2810,11 @@ universalify@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/universalify/-/universalify-2.0.0.tgz"
   integrity sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==
+
+uno@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.npmjs.org/uno/-/uno-0.0.2.tgz"
+  integrity sha512-BQF45B2C+pw3O8fBGzS/ZJi7EqKDjZ0OXUC/z4754qOmTCdJPGcZo/nUZ/mKWKkUyKn+M7Y2xIGAWOEZ5MdAWw==
 
 uri-js@^4.2.2:
   version "4.4.1"

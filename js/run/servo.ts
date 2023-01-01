@@ -8,9 +8,7 @@ board.on('ready', () => {
   });
   let end = 180;
   let start = 0;
-  // let i = 50;
 
-  // do {
   const intId = setInterval(() => {
     servo.to(start, 250);
     servo.to(end, 250);
@@ -22,11 +20,5 @@ board.on('ready', () => {
       clearInterval(intId);
     }
   }, 5000);
-
-
-  // } while (i > 1);
-  // if(i === 48) break;
-  // servo.to(90, 1000);
-  // servo.sweep();
 });
 
