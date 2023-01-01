@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Sites/micro"
+		},
+		{
+			"name": "230101-144956-uno",
+			"path": ".."
+		},
+		{
+			"name": "230101-145720-arduino-blink",
+			"path": "../../230101-145720-arduino-blink"
+		}
+	],
+	"settings": {}
+}

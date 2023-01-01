@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "230101-145720-arduino-blink",
+			"path": "../230101-145720-arduino-blink"
+		},
+		{
+			"name": "230101-144956-uno",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
